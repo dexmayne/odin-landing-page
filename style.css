@@ -34,7 +34,14 @@ body{
     background-color: #1F2937;
 }
 
-.header h4{
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.header-nav h4{
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -43,12 +50,16 @@ body{
     padding: 120px 120px;
     display: flex;
     background-color: #1F2937;
-
+    justify-content: space-around;
 }
 
 .hero-content{
     display: flex;
     justify-content: space-between;
+}
+
+.hero img{
+    height: 300px;
 }
 
 .hero h1{
