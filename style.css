@@ -27,7 +27,7 @@ body{
 
 .header{
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px 120px;
     font-size: 18px;
     color: #E5E7EB;
